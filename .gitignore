@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.*
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# MongoDB dump
+*.bson
+*.json
+
+# Static/Temp
+*.tmp
+*.temp
+*.bak
+
+# Node (if frontend is present)
+node_modules/
+
+# Misc
+*.swp 
+# Audio files (backend)
+backend/static/audio/ 
+
+.next/
+.clerk/
